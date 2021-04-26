@@ -1,10 +1,11 @@
 //lab about me
-
+let yourname=prompt('what is your name?');
+alert('hello' +yourname + 'and welcome');
 
 let condi=prompt('are you good?');
-console.log(condi);
+console.log(condi.toUpperCase());
 
-switch (good) {
+switch (condi) {
     case 'yes':
         console.log('ok have a nice day');
 break ;
@@ -15,12 +16,13 @@ console.log('i hope it gets better soon');
 
 
  let age=prompt('are you over 18?');
-   console.log(age);
+   console.log(age.toUpperCase());
 
 switch (age) {
     case 'yes':
 
         console.log('ok you can check any infromation you like');
+        alert('your answer is yes');
 break ;
 case 'no' :
 
@@ -32,10 +34,11 @@ case 'no' :
 let live=prompt('do you live in jordan?');
 console.log(live);
 
-switch (live) {
+switch (live.toUpperCase()) {
     case 'yes':
 
         console.log('ok feel free');
+        alert('your answer is yes');
 break ;
 case 'no' :
 
@@ -48,10 +51,11 @@ case 'no' :
 let work=prompt('do you work?');
 console.log(work);
 
-switch (work) {
+switch (work.toUpperCase()) {
     case 'yes':
 
         console.log('ok feel free');
+        alert('your answer is yes');
 break ;
 case 'no' :
 
@@ -60,8 +64,19 @@ case 'no' :
 
 }
 
+let hardworker=prompt('do you workhard?');
+console.log(hardwork);
 
+switch (work.toUpperCase()) {
+    case 'yes':
 
+        console.log('keep iy up!');
+        alert('your answer is yes');
+break ;
+case 'no' :
 
+        console.log('you should do better');
 
-alert('hello ' + yourname +' your age is ' + age +' you live in ' + live +' your fav color is ' +color);
+}
+
+alert('hello ' + yourname + 'i hope you found what you were looking for');
