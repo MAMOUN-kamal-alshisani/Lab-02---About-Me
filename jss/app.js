@@ -94,17 +94,12 @@ case 'no' :
         console.log('no');
         
 }
-alert('you have four opportunities to answer correctly')
-let myage =prompt('hello can you guess my age?')
+alert('you have four opportunities to answer correctly');
+let myage =prompt('hello can you guess my age?');
 myage = parseInt(myage);
- if(myage <=15)
- {alert('too low');}
- else if(myage >=30)
- {alert('too high');}
- else(myage==25 ||)
- {alert('close');}
+for(var i=0 ; i<=4 ; i++)
+if(myage<=17)
+{alert('too low');}
+else(myage>=30)
+{alert('too high');}
 
- for(let i=0 ;myage<=4;i++)
- 
-
-}
