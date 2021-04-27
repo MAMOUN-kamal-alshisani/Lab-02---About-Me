@@ -4,83 +4,94 @@ let yourname=prompt('what is your name?');
 console.log(yourname);
 alert('hello ' +yourname + ' and welcome');
 
-let condi=prompt('are you good?');
-console.log(condi.toUpperCase());
+let myname=prompt('is my name mamoun?');
+console.log(myname.toUpperCase());
 
-switch (condi.toLowerCase()) {
+switch (myname.toLowerCase()) {
     case 'yes':
-        alert('you have answered with yes');
-        console.log('ok have a nice day');
-        
+            case 'y':
+                  alert('your answer is correct');
+      
+        console.log(myname);
+
 break ;
 case 'no':
-        alert('you answered with no');
-console.log('i hope it gets better soon');
+        case 'n':
+        alert('uncorrect');
+console.log('my name is mamoun');
 
 
 }
 
- let age=prompt('are you over 18?');
-   console.log(age.toUpperCase());
+ let age=prompt('am i 24 years old?');
+   console.log(age.toLocaleLowerCase());
 
-switch (age.toLowerCase()) {
+switch (age.toLocaleLowerCase()) {
     case 'yes':
-        alert('you have answered with yes');
-        console.log('ok you can check any infromation you like');
+        case 'y':
+        alert('your answer is correct');
+        console.log(age);
         
 break ;
 case 'no':
-        alert('you answered with no');
-        console.log('you cant access some information');
+        case 'n':
+        alert('your answer is uncorrect');
+        console.log('24 years old');
         
 }
 
 
-let live=prompt('do you live in jordan?');
-console.log(live.toLowerCase);
+let live=prompt('is this my email :mamoun.alshishani@yahoo.com ?');
+console.log(live);
 
 switch (live.toLowerCase()) {
     case 'yes':
-        alert('you have answered with yes');
-        console.log('ok feel free');
+        case 'y':
+                alert('your answer is correct');
+        console.log(live);
        
 break ;
 case 'no' :
-        alert('you answered with no');
-        console.log('you need to register');
+        case 'n':
+                alert('your answer is uncorrect');
+        console.log(live);
         
 
 }
 
 
-let work=prompt('do you work?');
-console.log(work);
+let mycolor=prompt('is red and black and blue my favorite colors?');
+console.log(mycolor);
 
-switch (work.toLowerCase()) {
+switch (mycolor.toLowerCase()) {
     case 'yes':
-        alert('you have answered with yes');
-        console.log('ok feel free');
+        case 'y':
+                alert('your answer is correct');
+       
         
 break ;
 case 'no' :
-        alert('you answered with no');
-        console.log('good luck');
+        case 'n':
+                alert('your answer is uncorrect');
+        
         
 
 }
 
-let hardworker=prompt('do you work hard?');
+let hardworker=prompt('do i have a bachelor\'s degree?');
 console.log(hardworker);
 
 switch (hardworker.toLowerCase()) {
     case 'yes':
-        alert('you have answered with yes');
-        console.log('keep it up!');
+        case 'y':
+                alert('your answer is correct');
+        console.log('yes');
         
 break ;
 case 'no' :
-        alert('you answered with no');
-        console.log('you should do better');
+        case 'n':
+                alert('your answer is uncorrect');
+        console.log('no');
         
 }
 
