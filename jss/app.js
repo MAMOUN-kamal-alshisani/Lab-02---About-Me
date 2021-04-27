@@ -23,19 +23,19 @@ console.log('my name is mamoun');
 
 }
 
- let age=prompt('am i 24 years old?');
+ let age=prompt('am i 30 years old?');
    console.log(age.toLocaleLowerCase());
 
 switch (age.toLocaleLowerCase()) {
     case 'yes':
         case 'y':
-        alert('your answer is correct');
+        alert('your answer is uncorrect');
         console.log(age);
         
 break ;
 case 'no':
         case 'n':
-        alert('your answer is uncorrect');
+        alert('your answer is correct');
         console.log('24 years old');
         
 }
@@ -94,5 +94,17 @@ case 'no' :
         console.log('no');
         
 }
+alert('you have four opportunities to answer correctly')
+let myage =prompt('hello can you guess my age?')
+myage = parseInt(myage);
+ if(myage <=15)
+ {alert('too low');}
+ else if(myage >=30)
+ {alert('too high');}
+ else(myage==25 ||)
+ {alert('close');}
 
-alert('hello ' + yourname + ' i hope you found what you were looking for');
+ for(let i=0 ;myage<=4;i++)
+ 
+
+}
