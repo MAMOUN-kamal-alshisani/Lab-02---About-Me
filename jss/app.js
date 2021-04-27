@@ -60,10 +60,10 @@ case 'no' :
 }
 
 
-let mycolor=prompt('is red and black and blue my favorite colors?');
-console.log(mycolor);
+let develop=prompt('are you a programmer?');
+console.log(develop);
 
-switch (mycolor.toLowerCase()) {
+switch (develop.toLowerCase()) {
     case 'yes':
         case 'y':
                 alert('your answer is correct');
@@ -100,6 +100,30 @@ myage = parseInt(myage);
 for(var i=0 ; i<=4 ; i++)
 if(myage<=17)
 {alert('too low');}
-else(myage>=30)
+else if(myage =='24')
+{alert(correct);}
+else(myage>='30')
 {alert('too high');}
 
+console.log(myage[i]);
+let info=['blue','red','black'];
+let mycolor=prompt('can you guess how many colors do i like');
+switch (mycolor.toLowerCase()) {
+        case 'red':
+                case 'r':
+                      alert('your answer is correct');
+          
+            console.log(mycolor);
+    
+    break ;
+    case 'blue':
+            case 'b':
+            alert('your answer is correct');
+            console.log(mycolor);
+            break ;
+            case 'black':
+            case 'bk':
+                alert('your answer is correct');
+                console.log(mycolor);
+                default:
+                        alert('your answer is not correct');}
