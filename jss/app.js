@@ -10,6 +10,7 @@ console.log(my1name.toUpperCase());
 switch (my1name.toLowerCase()) {
     case 'yes':
             case 'y':
+                score++;
                   alert('your answer is correct');
       
         console.log(my1name);
@@ -29,6 +30,7 @@ console.log('my name is mamoun');
 switch (age2.toLocaleLowerCase()) {
     case 'yes':
         case 'y':
+                score++;
         alert('your answer is uncorrect');
         console.log(age2);
         
@@ -47,6 +49,7 @@ console.log(li3ve);
 switch (li3ve.toLowerCase()) {
     case 'yes':
         case 'y':
+                score++;
                 alert('your answer is correct');
         console.log(li3ve);
        
@@ -66,6 +69,7 @@ console.log(deve4lop);
 switch (deve4lop.toLowerCase()) {
     case 'yes':
         case 'y':
+                score++;
                 alert('your answer is correct');
        
         
@@ -84,6 +88,7 @@ console.log(hard5worker);
 switch (hard5worker.toLowerCase()) {
     case 'yes':
         case 'y':
+                score++;
                 alert('your answer is correct');
         console.log('yes');
         
@@ -117,7 +122,31 @@ case 'no' :
                         alert('The Correct answar is 24');
                         
                         
-                        
+                        alert('For this question you only have 6 attempts only');
+
+
+let movies = ['castaway', 'monster huneter ','resident evil','saw'];
+let my7movie;
+for(let i = 1 ; i <=6 ;i++){
+    my7movie = prompt('Name one strategy game from my top 10 Video games');
+
+
+    if(my7movie.toLowerCase() === movies [0] ||  my7movie === movies[1] || my7movie ===movies[2] || my7movie ===movies[3]){
+    alert('you are correct');
+    score++;
+    break;
+}else {
+    alert('wrong answar please try agian');
+}
+}
+alert(games[0]+'/ '+ movies[1] +'/ '+ movies [2] +'/ '+ movies[3]);
+
+
+alert('your score is ' + score + ' out of 7');
+
+
+alert(' you are good' + yourName);
+
                         
                         
                         
