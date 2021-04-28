@@ -4,15 +4,15 @@ let yourname=prompt('what is your name?');
 console.log(yourname);
 alert('hello ' +yourname + ' and welcome');
 
-let myname=prompt('is my name mamoun?');
-console.log(myname.toUpperCase());
+let my1name=prompt('is my name mamoun?');
+console.log(my1name.toUpperCase());
 
-switch (myname.toLowerCase()) {
+switch (my1name.toLowerCase()) {
     case 'yes':
             case 'y':
                   alert('your answer is correct');
       
-        console.log(myname);
+        console.log(my1name);
 
 break ;
 case 'no':
@@ -23,14 +23,14 @@ console.log('my name is mamoun');
 
 }
 
- let age=prompt('am i 30 years old?');
-   console.log(age.toLocaleLowerCase());
+ let age2=prompt('am i 30 years old?');
+   console.log(age2.toLocaleLowerCase());
 
-switch (age.toLocaleLowerCase()) {
+switch (age2.toLocaleLowerCase()) {
     case 'yes':
         case 'y':
         alert('your answer is uncorrect');
-        console.log(age);
+        console.log(age2);
         
 break ;
 case 'no':
@@ -41,29 +41,29 @@ case 'no':
 }
 
 
-let live=prompt('is this my email :mamoun.alshishani@yahoo.com ?');
-console.log(live);
+let li3ve=prompt('is this my email :mamoun.alshishani@yahoo.com ?');
+console.log(li3ve);
 
-switch (live.toLowerCase()) {
+switch (li3ve.toLowerCase()) {
     case 'yes':
         case 'y':
                 alert('your answer is correct');
-        console.log(live);
+        console.log(li3ve);
        
 break ;
 case 'no' :
         case 'n':
                 alert('your answer is uncorrect');
-        console.log(live);
+        console.log(li3ve);
         
 
 }
 
 
-let develop=prompt('are you a programmer?');
-console.log(develop);
+let deve4lop=prompt('are you a programmer?');
+console.log(deve4lop);
 
-switch (develop.toLowerCase()) {
+switch (deve4lop.toLowerCase()) {
     case 'yes':
         case 'y':
                 alert('your answer is correct');
@@ -78,10 +78,10 @@ case 'no' :
 
 }
 
-let hardworker=prompt('do i have a bachelor\'s degree?');
-console.log(hardworker);
+let hard5worker=prompt('do i have a bachelor\'s degree?');
+console.log(hard5worker);
 
-switch (hardworker.toLowerCase()) {
+switch (hard5worker.toLowerCase()) {
     case 'yes':
         case 'y':
                 alert('your answer is correct');
@@ -94,36 +94,30 @@ case 'no' :
         console.log('no');
         
 }
-alert('you have four opportunities to answer correctly');
-let myage =prompt('hello can you guess my age?');
-myage = parseInt(myage);
-for(var i=0 ; i<=4 ; i++)
-if(myage<=17)
-{alert('too low');}
-else if(myage =='24')
-{alert(correct);}
-else(myage>='30')
-{alert('too high');}
 
-console.log(myage[i]);
-let info=['blue','red','black'];
-let mycolor=prompt('can you guess how many colors do i like');
-switch (mycolor.toLowerCase()) {
-        case 'red':
-                case 'r':
-                      alert('your answer is correct');
-          
-            console.log(mycolor);
-    
-    break ;
-    case 'blue':
-            case 'b':
-            alert('your answer is correct');
-            console.log(mycolor);
-            break ;
-            case 'black':
-            case 'bk':
-                alert('your answer is correct');
-                console.log(mycolor);
-                default:
-                        alert('your answer is not correct');}
+                        alert('For this question you only have 4 attempts only')
+
+
+                        let ;
+                        for(let i = 1; i <= 4; i++){
+                           my6age= Number(prompt('how old am i?'));
+                            while(!my6age){
+                                my6age = Number(prompt('Please Enter a Number Value'));
+                            }
+                            if(my6age == 24){
+                                alert('Correct Answar good job');
+                                score++;
+                                break;
+                            }else if(my6age<= 20){
+                                alert('Your answar too low');
+                            }else if(my6age >= 26){
+                                alert('your answar too high');
+                            }
+                        }
+                        alert('The Correct answar is 24');
+                        
+                        
+                        
+                        
+                        
+                        
