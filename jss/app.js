@@ -1,12 +1,15 @@
 'use strict';
-
+let score = 0 ;
+function getusername  (){
 let yourname=prompt('what is your name?');
 console.log(yourname);
-alert('hello ' +yourname + ' and welcome');
+alert('hello ' + yourname + ' and welcome');
+}
+getusername();
 
+function getquestions1 () {
 let my1name=prompt('is my name mamoun?');
 console.log(my1name.toUpperCase());
-
 switch (my1name.toLowerCase()) {
     case 'yes':
             case 'y':
@@ -21,9 +24,12 @@ case 'no':
         alert('uncorrect');
 console.log('my name is mamoun');
 
-
 }
+}
+getquestions1()
 
+
+function getquestions2 () {
  let age2=prompt('am i 30 years old?');
    console.log(age2.toLocaleLowerCase());
 
@@ -41,8 +47,11 @@ case 'no':
         console.log('24 years old');
         
 }
+}
+getquestions2();
 
 
+function getquestions3 () {
 let li3ve=prompt('is this my email :mamoun.alshishani@yahoo.com ?');
 console.log(li3ve);
 
@@ -61,9 +70,12 @@ case 'no' :
         
 
 }
+}
+getquestions3();
 
 
-let deve4lop=prompt('are you a programmer?');
+function getquestions4 () {
+let deve4lop=prompt('do you think im a programmer?');
 console.log(deve4lop);
 
 switch (deve4lop.toLowerCase()) {
@@ -81,7 +93,10 @@ case 'no' :
         
 
 }
+}
+getquestions4 ();
 
+function getquestions5 () {
 let hard5worker=prompt('do i have a bachelor\'s degree?');
 console.log(hard5worker);
 
@@ -99,11 +114,16 @@ case 'no' :
         console.log('no');
         
 }
+}
+getquestions5()
 
+function getquestions6 () {
                         alert('For this question you only have 4 attempts only')
 
 
-                        let ;
+
+
+                        let my6age ;
                         for(let i = 1; i <= 4; i++){
                            my6age= Number(prompt('how old am i?'));
                             while(!my6age){
@@ -123,8 +143,12 @@ case 'no' :
                         
                         
                         alert('For this question you only have 6 attempts only');
+                }
+getquestions6()
 
 
+
+function getquestions7 () {                       
 let movies = ['castaway', 'monster huneter ','resident evil','saw'];
 let my7movie;
 for(let i = 1 ; i <=6 ;i++){
@@ -142,11 +166,6 @@ for(let i = 1 ; i <=6 ;i++){
 alert(movies[0]+'/ '+ movies[1] +'/ '+ movies [2] +'/ '+ movies[3]);
 
 
-alert('your score is ' + score + ' out of 7');
-
-
-alert(' you are good' + yourName);
-
-                        
-                        
-                        
+alert('you are good ' + 'your score is ' + score + ' out of 7');
+}
+getquestions7();
