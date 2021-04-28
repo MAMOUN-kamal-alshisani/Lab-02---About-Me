@@ -139,7 +139,7 @@ for(let i = 1 ; i <=6 ;i++){
     alert('wrong answar please try agian');
 }
 }
-alert(games[0]+'/ '+ movies[1] +'/ '+ movies [2] +'/ '+ movies[3]);
+alert(movies[0]+'/ '+ movies[1] +'/ '+ movies [2] +'/ '+ movies[3]);
 
 
 alert('your score is ' + score + ' out of 7');
