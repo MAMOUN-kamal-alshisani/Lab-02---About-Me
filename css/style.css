@@ -1,0 +1,21 @@
+header{background-color: grey;}
+body{background-color:rgb(190, 190, 176);}
+
+#first{color:brown;
+text-align:center;}
+
+#second{color:rgb(0, 0, 0);
+text-align:center;}
+#third{color:rgb(94, 87, 87);}
+
+.bio{color:royalblue;}
+
+.links{text-decoration:none;
+display:inline;
+margin-right:15px ;
+
+}
+main article nav li a{color:brown;}
+h3{color:rgb(84, 85, 84);}
+#fifth{color:green;}
+main article ol li{color:rgb(84, 85, 84)}
